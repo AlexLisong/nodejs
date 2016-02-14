@@ -10,10 +10,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
+    "chai": "^3.4.1",
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-mocha": "^2.2.0",
     "gulp-nodemon": "^2.0.4",
+    "mocha": "^2.3.4",
     "mongoose": "^4.3.3",
     "should": "^8.0.2",
     "simon": "^0.2.3",
