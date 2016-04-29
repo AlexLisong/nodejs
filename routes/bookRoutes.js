@@ -6,6 +6,8 @@ var routes = function(Book){
 	
 var bookRouter = express.Router();
 var bookController = require('../Controllers/bookController.js')(Book);
+
+
 bookRouter.route('/')
 	.post(bookController.post)
 	.get(bookController.get);
